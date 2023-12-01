@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+		<title>PESCAQUI TE AJUDA PEGAR NA VARA</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="content-language" content="pt" />
+		<meta name="description" content="No site Client-Side você vai encontrar artigos referentes ao 
+		desenvolvimento web clientside como HTML5; JavaScript; CSS3; e jQuery" />
+		<meta name="keywords" content="JavaScript, CSS3, HTML5, jQuery" />
+		<meta name="author" content="Gabriel e Daniel" >
+		<script type="text/javascript" src="js/comportamento.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+	</head>
+	<body>
+		<div id="geral">
+			<div id="cabecalho">
+				<div id="logotipo">
+					<a href="/clientside/index.php">
+						<img src="img/zarla-pescaqui-1x1-2400x2400-20211208-hpb6tvvpxpf4b789t7rm_Easy-Resize.com.jpg" title="Logo Client-Side" alt="Logo Client-Side" border="0" />
+					</a>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="/clientside/index.php">Home</a></li>
+						<li>SHOP</li>
+						<li>DOWLOADS</li>
+						<li>DICAS</li>
+						<li>VARAS</li>
+						<li>Acessibilidade</li>
+						<li>Usabilidade</li>
+						<li><a href="index.php?pag=fale-conosco">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="corpo">
+				<? if($pag == ""){?>
+				<div id="destaques">
+					<div id="destaques_top">
+						<div id="destaque_top_esquerda">
+							<h1>Aprenda como segurar</h1>
+							<p>
+								Para que seu arremesso seja preciso e você obtenha sucesso na pescaria você tem
+								 que segurar a vara de pesca do jeito certo. Para isso, posicione o polegar em 
+								 linha reta no equipamento. Caso seja uma vara para molinetes, posicione o dedo 
+								 médio atrás da haste do molinete e mindinho e anular na frente do mesmo. Feito isso, 
+								 com o dedo indicador você controla a linha.
+						    </p>
+							
+							<img src="img/download.jpeg" title="HTML é o novo HTML5" alt="HTML é o novo HTML5" />
+							
+							<h1>Atente-se para a posição do braço</h1>
+							<p>Uma das dicas de como usar a vara de pesca corretamente é se atentar para o ângulo do braço que está segurando o equipamento.</p>
+							
+							<p> Esse passo é importante não só para garantir uma pesca bem sucedida como também para evitar dores durante o arremesso e o restante 
+								da realização da atividade.</p>
+							
+							<pre>Cuidados na hora de arremessar</pre>
+							
+							<p>Mais um dos cuidados ao usar a vara de pescar diz respeito ao momento do arremesso. Ao usar o equipamento, atente-se para não arremessar 
+								com o carretel encolhido mesmo que parcialmente, isso porque como a linha sai em espiral, nesse caso, pode causar atrito com as laterais
+								 e alça de forma a diminuir o desempenho do arremesso.</p>
+						</div>
+						
+						<div id="destaque_top_direita">
+							<h1>DICAS</h1>
+							<iframe width="320" height="320" src="https://www.youtube.com/embed/KJ4wYs2H0ek?si=_X1O0wGG7uopSwK4" title="YouTube video player" frameborder="0" 
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							 <span class="legenda">video dicas para pescar </span>
+							
+							<div  id="destuqe_top_direita_especial">
+								<div class="destaque_top_direita_dividido">
+									<h1>Iscas Rígidas</h1>
+									
+									<p>
+										São iscas artificiais duros (hardbaits) feitos 
+										normalmente em plástico a imitar pequenos peixes
+										e podem ser classificadas em iscas de superfície,
+							            sub-superfície ou meia-água.</p>
+								</div>
+								<div class="destaque_top_direita_dividido">
+
+									<h1>Iscas Moles</h1>
+
+									<p>
+										São todas as iscas construídas com materiais flexíveis (softbaits),
+										normalmente em silicone ou borracha (algumas delas são conhecidas por
+										borrachinhas ou vinis) o que permite percorrer os fundos ao
+										contrário das amostras (iscas) rígidas.
+								    </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="destaques_bottom">
+						<div id="destaque_bottom_esquerda">
+							<h1>Meça a força <code>.clone()</code></h1>
+							<p>
+								Na hora da puxada um dos cuidados ao usar a vara de pesca é medir a força. Assim que nota a fisgada de uma peixe, 
+								é comum sentir bastante euforia e acabar puxando com muita força até que ele venha para a superfície e chegue até você.
+						    </p>
+						</div>
+						<div id="destaque_bottom_direita">
+							<img src="img/foto.jpeg" title="PESCAQUI" alt="PESCAQUI" />
+							<h1>PESCAQUI</h1>
+						</div>
+					</div>
+				</div>
+				<?
+				}else{
+					include($pag.".html");
+				}?>
+			</div>
+			<div id="direitos_reservados">
+				<hr />
+				© 2021-2023. Todos Os Direitos São Reservados.
+			</div>
+		</div>
+	</body>
+</html>
+
+</html>
